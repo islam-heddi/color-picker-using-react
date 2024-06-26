@@ -1,0 +1,38 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body{
+  background-color: rgb(138, 207, 242);
+}
+
+.container{
+  background-color: rgb(216, 216, 216);
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  max-width: 200px;
+  text-align: center;
+  padding:20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.colorBox{
+  padding: 50px;
+  text-align: center;
+  margin: 12px;
+  border-radius: 12px;
+}
+
+
+.btn{
+  background-color: rgb(86, 81, 81);
+  width: 100px;
+  height: 50px;
+}
+
+.btn:hover{
+  background-color: rgba(86, 81, 81, 0.575);
+}
